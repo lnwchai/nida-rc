@@ -1,0 +1,122 @@
+{
+    "key": "group_63ec8f6628fd9",
+    "title": "ปฏิทินกิจกรรม",
+    "fields": [
+        {
+            "key": "field_63ec8f66a12db",
+            "label": "Start Date",
+            "name": "start_date",
+            "aria-label": "",
+            "type": "date_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "display_format": "j F Y",
+            "return_format": "Ymd",
+            "first_day": 1,
+            "allow_in_bindings": 1
+        },
+        {
+            "key": "field_63ec91dea12dc",
+            "label": "End Date",
+            "name": "end_date",
+            "aria-label": "",
+            "type": "date_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "display_format": "j F Y",
+            "return_format": "Ymd",
+            "first_day": 1,
+            "allow_in_bindings": 1
+        },
+        {
+            "key": "field_63ec91ffa12dd",
+            "label": "Place Name",
+            "name": "place_name",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_63ec9224a12de",
+            "label": "Place URL",
+            "name": "place_url",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_63ec923ca12df",
+            "label": "Detail",
+            "name": "info",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "event"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1735885868
+}

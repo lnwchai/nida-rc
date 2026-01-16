@@ -1,0 +1,313 @@
+{
+    "key": "group_63eb005190747",
+    "title": "ข้อมูลบุคลากร",
+    "fields": [
+        {
+            "key": "field_678e131805653",
+            "label": "ภาพบุคลากร",
+            "name": "images",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "return_format": "array",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "allow_in_bindings": 0,
+            "preview_size": "large"
+        },
+        {
+            "key": "field_66b1d3bedbede",
+            "label": "ชื่อ-นามสกุล",
+            "name": "flname",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_63eb0051b3d92",
+            "label": "ตำแหน่ง",
+            "name": "rank",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_67907269f7e82",
+            "label": "สถานที่ติดต่อ",
+            "name": "contact-location",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 0,
+            "rows": "",
+            "placeholder": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_66b1d44fdbee0",
+            "label": "โทร.",
+            "name": "contact",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "min": "",
+            "max": "",
+            "placeholder": "",
+            "step": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_66b1d4b6dbee1",
+            "label": "อีเมล",
+            "name": "email",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_676387a67121f",
+            "label": "หน้าที่ความรับผิดชอบ",
+            "name": "responsibilities",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "default_value": "",
+            "allow_in_bindings": 1,
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_67906aa8083fb",
+            "label": "การศึกษา",
+            "name": "education",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "default_value": "",
+            "allow_in_bindings": 0,
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_67906abd083fc",
+            "label": "ความเชี่ยวชาญ",
+            "name": "Expert",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "default_value": "",
+            "allow_in_bindings": 0,
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_67906b07083fd",
+            "label": "ประสบการณ์การทำงาน",
+            "name": "work-experience",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "default_value": "",
+            "allow_in_bindings": 0,
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_67906b2b083fe",
+            "label": "ผลงาน",
+            "name": "performance",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "default_value": "",
+            "allow_in_bindings": 0,
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_67906b44083ff",
+            "label": "ดาวน์โหลด CV-TH",
+            "name": "downloads-cv-th",
+            "aria-label": "",
+            "type": "file",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "return_format": "url",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": "",
+            "allow_in_bindings": 1
+        },
+        {
+            "key": "field_67906d8f26eaf",
+            "label": "ดาวน์โหลด CV-EN",
+            "name": "downloads-cv-en",
+            "aria-label": "",
+            "type": "file",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "return_format": "array",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": "",
+            "allow_in_bindings": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "teams"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "discussion",
+        "comments"
+    ],
+    "active": true,
+    "description": "",
+    "show_in_rest": 1,
+    "modified": 1737618379
+}

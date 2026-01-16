@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'Graphik Thai Loop';
+  src: url('../fonts/graphikthailoop-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Graphik Thai Loop';
+  src: url('../fonts/graphikthailoop-600.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Manifestor';
+  src: url('../fonts/manifestor-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Manifestor';
+  src: url('../fonts/manifestor-500.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Manifestor';
+  src: url('../fonts/manifestor-700.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Utopia Std';
+  src: url('../fonts/utopia-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+// BEGIN
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.4;
+}
+:root {
+  --s-body: 'Graphik Thai Loop', sans-serif !important;
+  --s-heading: 'Manifestor', sans-serif;
+  --s-heading-alt: 'Utopia Std', 'Manifestor', serif;
+  --s-heading-weight: 500;
+  --s-heading-alt-weight: 400;
+  --s-rounded-1: 0;
+  --s-rounded-2: 0;
+  --n-red: #a51d32;
+  --n-dark: #2d2a4a;
+  --n-blue: #261e72;
+  --n-light: #f4f5f8;
+  --n-warm: #f4ef9e;
+  --n-yellow: #ffca11;
+  --n-brown: #aa8156;
+  @media (min-width: 1240px) {
+    --s-container-width: 1240px;
+  }
+}
+
+._title {
+  font-family: var(--s-heading-alt), var(--s-heading);
+  font-weight: var(--s-heading-alt-weight);
+  position: relative;
+  font-size: 1.8em;
+  margin-bottom: calc(6px + var(--s-space));
+  @media (min-width: 768px) {
+    font-size: 2em;
+  }
+  &._th {
+    font-family: var(--s-heading);
+    padding-bottom: 0.2em;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 3px;
+    background: var(--n-red);
+  }
+}
+._center {
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -11px;
+    left: calc(50% - 50px);
+  }
+}
+
+._text_shadow {
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+}
+._box_shadow {
+  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.1);
+}
+._arrow {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.hide-date {
+  .posted-on {
+    display: none;
+  }
+}
+._th:not(:lang(th)),
+._en:not(:lang(en-US)) {
+  display: none !important;
+}

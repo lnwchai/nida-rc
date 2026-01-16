@@ -1,0 +1,550 @@
+.s-title {
+  position: relative;
+  small {
+    font-size: 18px;
+    margin-left: var(--s-gap);
+  }
+  &::before {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100px;
+    background-color: var(--s-color-1);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+h3.s-title {
+  line-height: 2.5;
+}
+.school-header {
+  background-size: cover;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: #fff;
+  .bg {
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    // opacity: 0.6;s
+  }
+  .header-content {
+    position: relative;
+  }
+  a {
+    color: #fff;
+  }
+}
+.school-code {
+  display: inline-block;
+  padding: 6px 18px;
+  color: #fff;
+  font-family: var(--s-heading);
+}
+.entry-website {
+  position: relative;
+  margin-top: -22px;
+}
+.school-web {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: calc(var(--s-gap) / 2);
+  min-width: 120px;
+  padding: 6px 18px;
+  color: var(--s-color-1);
+  background-color: #fff;
+  border: 2px solid var(--s-color-1);
+  margin-left: auto;
+  margin-right: auto;
+}
+.school-alumni {
+  color: #fff;
+  background-size: cover;
+  .pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 99px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: var(--s-gap);
+  }
+  .name {
+    margin-bottom: calc(var(--s-gap) / 2);
+  }
+}
+.school-gllery {
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  max-width: 100vw;
+  width: unset;
+  .wp-block-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+  }
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+}
+.school-program {
+  background: #e5e5e7;
+  border-top: 4px solid #ffca11;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  max-width: 100vw;
+  width: unset;
+  .s-title {
+    font-size: 38px;
+  }
+}
+.school-contact {
+  padding-top: var(--s-gap);
+  padding-bottom: var(--s-gap);
+  .s-title {
+    font-size: 38px;
+  }
+  ul.contact-list {
+    padding: 0;
+    list-style: none;
+    li {
+      margin-bottom: 8px;
+    }
+    a {
+      color: var(--s-text-1);
+    }
+    svg {
+      min-width: 24px;
+    }
+    @media (min-width: 1024px) {
+      columns: 2;
+    }
+  }
+}
+.school-map {
+  overflow: hidden;
+  padding-bottom: 70%;
+  position: relative;
+  height: 0;
+  iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+}
+.school-sustainability {
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  max-width: 100vw;
+  width: unset;
+  min-height: 400px;
+  background-image: url(../img/sustainabiliry-cover.webp);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+body.single-double-degree,
+body.single-course,
+body.single-master,
+body.single-phd {
+  ol {
+    list-style: none;
+    padding: 0;
+    li {
+      counter-increment: item;
+      position: relative;
+      padding-left: 30px;
+    }
+    li:before {
+      color: #fff;
+      background-color: var(--s-color-1);
+      content: counter(item);
+      counter-increment: index;
+      border-radius: 99px;
+      text-align: center;
+      font-size: 12px;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 4px;
+      left: 0;
+    }
+  }
+}
+
+.program-school {
+  padding: 6px 0;
+  background-color: var(--s-color-1);
+  color: #fff;
+  a {
+    display: grid;
+    align-items: center;
+    gap: 6px;
+    color: #fff;
+  }
+  @media (min-width: 1024px) {
+    a {
+      display: flex;
+      gap: 16px;
+    }
+  }
+}
+
+.program-info,
+.qualifications {
+  ul {
+    list-style: none;
+  }
+  li {
+    position: relative;
+    padding-left: 20px;
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 10px;
+      left: -10px;
+      width: 10px;
+      height: 10px;
+      border-radius: 100%;
+      background-color: var(--s-color-1);
+    }
+  }
+}
+.program-intro {
+  padding-top: 30px;
+}
+.program-name {
+  text-align: left;
+}
+.program-code {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--s-color-1);
+  border: 2px solid var(--s-color-1);
+  padding: 0 10px;
+  width: fit-content;
+}
+.program-name-en {
+  font-size: 20px;
+  // font-weight: 500;
+  margin-bottom: 0;
+  @media (min-width: 1024px) {
+    display: flex;
+    gap: var(--s-gap);
+  }
+}
+.program-type,
+.program-location {
+  font-size: 20px;
+  color: var(--s-text-2);
+}
+.program-description {
+  position: relative;
+  padding: var(--s-gap);
+  color: #fff;
+  background-color: var(--n-dark);
+  margin-bottom: 30px;
+  height: fit-content;
+  ul {
+    list-style: none;
+  }
+  li {
+    position: relative;
+    padding-left: 20px;
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 10px;
+      left: -10px;
+      width: 10px;
+      height: 10px;
+      border-radius: 100%;
+      background-color: var(--s-color-4);
+    }
+  }
+
+  .btn {
+    position: absolute;
+    padding: 10px 20px;
+    margin-left: calc(var(--s-gap) * -1);
+    margin-bottom: calc(var(--s-gap) * -1);
+    border-top: 3px solid #f4f5f8;
+    border-right: 3px solid #f4f5f8;
+  }
+}
+.program-cover {
+  display: flex;
+  max-height: 320px;
+  overflow: hidden;
+  .item {
+    width: 100%;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.info-box {
+  display: grid;
+  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  max-width: var(--s-container-width);
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 60px;
+    margin-top: -60px;
+  }
+  .box {
+    padding: var(--s-gap);
+    display: flex;
+    gap: var(--s-gap);
+    align-items: center;
+    @media (max-width: 1023px) {
+      border-bottom: 1px solid #d5d5d7;
+    }
+    @media (min-width: 1024px) {
+      &:not(:nth-last-child(-n + 3)) {
+        border-bottom: 1px solid #d5d5d7;
+      }
+      &:not(:nth-child(3n)) {
+        border-right: 1px solid #d5d5d7;
+      }
+    }
+  }
+  .box-title {
+    font-family: var(--s-heading);
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .box-content {
+    font-size: 14px;
+    font-family: var(--s-heading);
+  }
+}
+.school-video,
+.program-video {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  //padding-top: 56.25%;  // 16:9
+  padding-top: 66.666666%; // 3:2
+  position: relative;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 55;
+  }
+}
+.director {
+  .-contact {
+    display: flex;
+    gap: var(--s-gap);
+  }
+}
+.director-img {
+  min-width: 120px;
+  width: 120px;
+  height: 120px;
+  border-radius: 99px;
+  overflow: hidden;
+  background-color: #fff;
+  img {
+    width: 120px;
+    height: 120px;
+  }
+  @media (min-width: 1024px) {
+    margin-right: 20px;
+  }
+}
+.director-name {
+  margin-bottom: 6px;
+}
+.program-info {
+  background-color: #fff;
+}
+
+.program-admission {
+  border-top: 4px solid var(--s-color-4);
+  background-color: #e4e5e8;
+}
+.program-download {
+  h5 {
+    margin-right: var(--s-gap);
+  }
+  .btn-outline {
+    color: var(--s-color-1);
+    border-color: var(--s-color-1);
+    border-radius: 0;
+    padding: 6px 10px;
+    &:hover {
+      color: #fff;
+      background-color: var(--s-color-1);
+    }
+  }
+}
+
+.btn {
+  font-family: var(--s-heading);
+  display: inline-flex;
+  align-items: center;
+  gap: calc(var(--s-gap) / 2);
+  color: #fff;
+  background-color: var(--s-color-1);
+  padding: 10px;
+  &:hover {
+    color: #2d2a4a;
+    background-color: #ffca11;
+  }
+}
+.btn-danger {
+  font-family: var(--s-heading);
+  color: #fff;
+  background-color: var(--s-color-2);
+  &:hover {
+    color: #2d2a4a;
+    background-color: #ffca11;
+  }
+}
+
+.s-underline {
+  position: relative;
+  z-index: 2;
+  &::after {
+    content: '';
+    display: block;
+    height: 3px;
+    background-color: var(--s-color-4);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2px;
+    z-index: -1;
+  }
+}
+.table-admission-fee {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f4f5f8;
+  thead {
+    background-color: #fff;
+    th {
+      padding: 10px;
+      border-bottom: 1px solid #e4e5e8;
+    }
+  }
+  tbody {
+    tr {
+      td {
+        padding: 10px;
+        border-bottom: 1px solid #e4e5e8;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .program-quote strong {
+    position: relative;
+    z-index: 2;
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      bottom: 8px;
+      width: 100%;
+      height: 4px;
+      background-color: var(--s-color-4);
+      z-index: -1;
+    }
+  }
+  .d-flex {
+    display: flex;
+    gap: var(--s-gap);
+  }
+}
+
+.footer-section-list {
+  @media (max-width: 1023px) {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #d5d5d7;
+    margin-bottom: 6px;
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      top: 6px;
+      right: 0;
+      z-index: 2;
+      background-image: url("data:image/svg+xml,%3Csvg aria-hidden='true' role='img' height='10' width='10' viewBox='0 0 448 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23fff' d='M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z'%3E%3C/path%3E%3C/svg%3E");
+    }
+    h2 {
+      position: relative;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      z-index: 2;
+      background-color: #1b1833;
+    }
+    p {
+      margin: 0;
+      overflow: hidden;
+      padding-top: 5px;
+      padding-bottom: 16px;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      visibility: hidden;
+      z-index: -1;
+      transform: translateY(-100px);
+      will-change: transform;
+    }
+    &.active::after {
+      transition: all 0.3s ease-in-out;
+      transform: rotate(45deg) scale(1.08);
+    }
+    &.active p {
+      position: static;
+      visibility: visible;
+      z-index: 1;
+      transform: none;
+      transition: transform 300ms ease;
+    }
+  }
+}

@@ -1,0 +1,220 @@
+{
+    "key": "group_64016a2f6550c",
+    "title": "วิจัย",
+    "fields": [
+        {
+            "key": "field_6432b3c2e55ac",
+            "label": "ชนิดเนื้อหา",
+            "name": "type",
+            "aria-label": "",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "choices": {
+                "research": "งานวิจัย",
+                "article": "บทความ"
+            },
+            "default_value": "research",
+            "return_format": "value",
+            "allow_null": 0,
+            "layout": "horizontal"
+        },
+        {
+            "key": "field_64016a2f943c0",
+            "label": "Authors",
+            "name": "research_authors",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "default_value": "",
+            "maxlength": "",
+            "rows": 4,
+            "placeholder": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_64016a49943c1",
+            "label": "Published",
+            "name": "research_published",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_64016a69943c2",
+            "label": "Volume",
+            "name": "research_volume",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 1,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64016afa943c3",
+            "label": "Issue",
+            "name": "research_issue",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 1,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6401a7f8bc190",
+            "label": "Download full issue",
+            "name": "research_download_url",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "default_value": "",
+            "allow_in_bindings": 1,
+            "placeholder": ""
+        },
+        {
+            "key": "field_64041da8d0166",
+            "label": "Year",
+            "name": "research_year",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 1,
+            "placeholder": "Example: 2003",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_67650de4f2eae",
+            "label": "Research Publish Date",
+            "name": "research_publish_date",
+            "aria-label": "",
+            "type": "date_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "display_format": "j F Y",
+            "return_format": "j F Y",
+            "first_day": 1,
+            "allow_in_bindings": 0,
+            "default_to_current_date": 0
+        },
+        {
+            "key": "field_695f4b2fda33a",
+            "label": "Count Click",
+            "name": "count_click",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 0,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "research"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 1,
+    "display_title": "",
+    "modified": 1767852929
+}

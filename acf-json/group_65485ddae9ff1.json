@@ -1,0 +1,51 @@
+{
+    "key": "group_65485ddae9ff1",
+    "title": "Cover Topic",
+    "fields": [
+        {
+            "key": "field_65485ddb7adaf",
+            "label": "Cover Topic",
+            "name": "cover_topic",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "return_format": "url",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "taxonomy",
+                "operator": "==",
+                "value": "topic"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1734680385
+}

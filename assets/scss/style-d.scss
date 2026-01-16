@@ -1,0 +1,241 @@
+// BRAND
+div.site-branding {
+  gap: 6px;
+  img {
+    height: 40px;
+  }
+  @media (min-width: 1080px) {
+    gap: 10px;
+    img {
+      height: 50px;
+    }
+  }
+}
+.site-title {
+  font-size: 1em;
+  small {
+    font-size: 0.6rem;
+  }
+  @media (min-width: 1080px) {
+    font-size: 1.1875em;
+    small {
+      font-size: 0.71rem;
+    }
+  }
+}
+
+// NAV
+.s-nav {
+  font-size: 0.875rem;
+  gap: 0.5em;
+  @media (min-width: 1160px) {
+    font-size: 0.9375rem;
+  }
+  @media (min-width: 1170px) {
+    font-size: 1rem;
+  }
+  @media (min-width: 1220px) {
+    gap: 0.8rem;
+  }
+  .i-down {
+    width: 16px;
+    height: 16px;
+    top: calc(50% - 6px);
+  }
+  .sub-menu {
+    min-width: 220px;
+    a {
+      padding: 6px 0 6px 16px;
+  }
+
+    
+  }
+  > li {
+    margin-bottom: 0;
+  }
+  .m-cols {
+    > .sub-menu {
+      min-width: 750px;
+      display: flex;
+      align-items: flex-start;
+    }
+  }
+  .col {
+    width: 50%;
+  }
+}
+/*
+.site-action {
+  display: none;
+}
+*/
+.m-button a {
+  color: #fff !important;
+  padding: 20px !important;
+}
+.m-button {
+  a {
+    padding: 0.4rem 0.6rem;
+    font-size: 1rem;
+    color: #fff;
+    @media (min-width: 1160px) {
+      padding: 0.5rem 1rem;
+    }
+    @media (min-width: 1220px) {
+      font-size: 1.125rem;
+      padding: 0.5rem 1.5rem;
+    }
+  }
+}
+
+.m-nida {
+  &::before,
+  &::after {
+    content: '';
+    display: block;
+    background-color: var(--n-dark);
+    position: absolute;
+    top: 8px;
+    right: 0px;
+  }
+  &::before {
+    width: 10px;
+    height: 2px;
+  }
+  &::after {
+    width: 2px;
+    height: 10px;
+  }
+  position: relative;
+  display: block;
+  width: 122px;
+  height: 72px;
+  color: rgba(255, 255, 255, 0) !important;
+  font-size: 9px;
+  overflow: hidden;
+  text-indent: -9999px;
+  background-image: url('../img/nida-logo.webp');
+  background-size: 103px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.m-nida-poll {
+  &::before,
+  &::after {
+    top: 20px;
+    background-color: var(--n-dark);
+  }
+}
+
+// SINGLE
+#main {
+  .single-pic {
+    margin: var(--s-space) -75px 0;
+  }
+}
+
+// PAGE
+.page-header {
+  min-height: 320px;
+
+  &::before,
+  &::after {
+    content: '';
+    background-size: auto 80%;
+  }
+}
+
+// home search
+
+.program-details {
+  a {
+    min-height: 58px;
+    flex-wrap: nowrap;
+  }
+
+  .school-name {
+    width: 266px;
+  }
+
+  .programname {
+    width: calc(100% - 400px);
+    padding-right: 20px;
+  }
+
+  svg {
+    right: 26px;
+  }
+}
+
+.search-program-form {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+
+  input,
+  select,
+  a {
+    background-color: #fff;
+    width: 25%;
+    height: 44px;
+    margin-bottom: unset;
+  }
+
+  a {
+    background: #a51931;
+  }
+}
+
+// Register Form
+.register-form {
+  --s-space: 16px;
+
+  .gsection_title {
+    font-size: 24px;
+  }
+}
+
+// Dashboard
+.page-template-dashboard {
+  .dashboard {
+    h2 {
+      font-size: 20px;
+      text-align: left;
+    }
+  }
+
+  .reg-info {
+    // padding: calc(var(--s-space) * 3) 0;
+    .gv-search-box {
+      flex-grow: 1;
+    }
+
+    .gv-search-box-submit {
+      flex: 1 1 10em;
+      align-self: auto;
+
+      .gv-search-button {
+        color: white;
+        background-color: var(--n-red);
+
+        &:hover {
+          cursor: pointer;
+          background-color: #730000;
+        }
+      }
+    }
+  }
+}
+
+.school-search-program-form {
+  display: flex;
+  flex-direction: row;
+  .search-text {
+    width: 45%;
+  }
+}
+
+.s-program {
+  background-color: #fff;
+}
