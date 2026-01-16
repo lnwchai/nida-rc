@@ -48,7 +48,7 @@ get_header();
             // Download
             if (get_field('research_download_url')) {
                 echo '<div class="text-center">';
-                echo '<a href="' . get_field('research_download_url') . '" class="btn btn-outline" target="_blank">full paper</a>';
+                echo '<a href="' . get_field('research_download_url') . '" class="btn btn-outline" target="_blank">Download full paper</a>';
                 echo '</div>';
             }
 
@@ -62,10 +62,14 @@ get_header();
                     $keywords_list .= '<a href="' . get_term_link($keyword->slug, 'keyword') . '">' . $keyword->name . '</a>';
                 }
                 echo '<div class="single_tags _h ' . $css_class . '">' . $keywords_list . '</div>';
+                
             }
 
             //show taxonomy SDG
+            echo '<div class="sdg-view">';
             the_tax_sdg();
+            echo do_shortcode('[post-views]');
+            echo '</div>';
 
             edit_post_link('EDIT', '', '', null, 'btn-edit');
         }
