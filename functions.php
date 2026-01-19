@@ -380,3 +380,25 @@ add_action('wp_footer', 'add_cookie_banner');
 */
 
 define('PLANT_DISABLE_ACF', true); 
+
+
+add_filter('gform_confirmation_4', 'redirect_after_download_form', 10, 4);
+function redirect_after_download_form($confirmation, $form, $entry, $ajax) {
+
+    if (isset($_GET['download'])) {
+
+        $download_url = base64_decode($_GET['download']);
+
+        $confirmation = array(
+            'redirect' => esc_url_raw($download_url)
+        );
+    }
+
+    return $confirmation;
+}
+
+
+add_filter('gform_field_value_page_title', function () {
+    return get_the_title();
+});
+
