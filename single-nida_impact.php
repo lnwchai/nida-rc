@@ -26,7 +26,7 @@ get_header();
             
             if (get_field('research_download_url')) {
 
-                $download_url = get_field('research_download_url');
+                $download_url = get_field('impack_download_url');
             
                 echo '<div class="text-center">';
                 echo '<a href="' . esc_url(add_query_arg('download', base64_encode($download_url))) . '" class="btn btn-outline">';
