@@ -74,11 +74,13 @@ $cover_topic = get_field('cover_topic', 'topic_' . $topic_id);
             <span><?php echo plant_date($s_date);  ?></span>
             
         </div>
-        
+        <div class="sgd-stat">
         <?php
             //show taxonomy SDG
             the_tax_sdg();
+            echo do_shortcode('[s_stat]');
         ?>
+        </div>
 
         <div class="action">
             <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
