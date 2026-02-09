@@ -36,7 +36,6 @@ if (have_posts()) :
                 $childpages = wp_list_pages( 'sort_column=menu_order&title_li=&child_of=' . $post->ID . '&echo=0' );
             }
             if ( $childpages ) {
-                echo '<h2 class="widget-title">';
                 echo '<a href="' . get_permalink($root_id) . '">';
                 echo get_the_title($root_id);
                 echo '</a></h2>';
