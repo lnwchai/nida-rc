@@ -2109,3 +2109,40 @@ a.wp-block-file__button.wp-element-button {
 }
 
 
+
+
+.research-filter {
+  margin-bottom: 30px;
+  div {
+    margin-bottom: 10px;
+  }
+  button.btn.justify-center {
+    width:
+    150px;
+  }
+  span.facetwp-input-wrap {
+    width: 100%;
+    input.facetwp-search {
+      min-width:100% !important;
+    }
+  }
+  select.facetwp-dropdown {
+    width: 100%;
+}
+  
+  a#reset {
+    width: 150px;
+    display: block;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  button.btn.justify-center {
+    display: block;
+    margin: 0 auto 10px;
+  }
+}
+
+._center.heading::after {
+  left: calc(50% - 50px);
+}

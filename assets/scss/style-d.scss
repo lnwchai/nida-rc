@@ -24,6 +24,8 @@ div.site-branding {
   }
 }
 
+
+
 // NAV
 .s-nav {
   font-size: 0.875rem;
@@ -238,4 +240,34 @@ div.site-branding {
 
 .s-program {
   background-color: #fff;
+}
+
+
+
+.research-filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+  gap: 20px;
+  .facetwp-facet {
+    margin-bottom: 0;
+    button.btn.justify-center {
+    width: 150px;
+    }
+    button.btn.justify-center {
+      width: 150px;
+    }
+  }
+  a#reset {
+    width: 150px;
+    display: block;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  button.btn.justify-center {
+    display: block;
+    margin: 0 auto;
+  }
 }
