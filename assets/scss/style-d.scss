@@ -271,3 +271,24 @@ div.site-branding {
     margin: 0 auto;
   }
 }
+
+
+.social_channel {
+  .s_social {
+    a {
+      color: #fff;
+    }
+  }
+  .pic_channel 
+  {
+    position: absolute;
+    top: -90px;
+    width: 160px;
+    left: 0;
+  }
+  .gb-grid-column.gb-grid-column-ea98a933 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

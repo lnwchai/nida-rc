@@ -2146,3 +2146,23 @@ a.wp-block-file__button.wp-element-button {
 ._center.heading::after {
   left: calc(50% - 50px);
 }
+
+.social_channel {
+  .s_social {
+    a {
+      color: #fff;
+    }
+  }
+  .pic_channel 
+  {
+    position: absolute;
+    top: -90px;
+    width: 160px;
+    left: calc(42% - 50px);
+  }
+  .gb-grid-column.gb-grid-column-ea98a933 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
