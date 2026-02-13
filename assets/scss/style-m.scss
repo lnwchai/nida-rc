@@ -2166,3 +2166,19 @@ a.wp-block-file__button.wp-element-button {
     justify-content: center;
   }
 }
+
+
+
+.rounded-video {
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px; /* ปรับความโค้งได้ */
+}
+
+.rounded-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
