@@ -6,11 +6,7 @@ foreach ($terms as $term) {
     $topic = '<a href="' . $topic_link . '">' . $term->name . '</a>';
     $topic_id =  $term->term_id;
 }
-$volume = get_field('research_volume');
-if ($volume) {
-    $volume = 'Volume ' . $volume . ', ';
-}
-$cover_topic = get_field('cover_topic', 'topic_' . $topic_id);
+
 ?>
 <header class="research-header _impact">
     <?php
@@ -39,6 +35,18 @@ $cover_topic = get_field('cover_topic', 'topic_' . $topic_id);
                     echo $topic; 
                 }  ?>
         </div>
-        <h1 class="entry-title"><?php the_title(); ?></h1>
+        <h1 class="entry-title _hide"><?php the_title(); ?></h1>
+        <?php
+            $biweekly_no = get_field('biweekly_no');
+            $biweekly    = get_field('biweekly');
+            $caption     = get_field('caption');
+            
+
+            echo '<h2><b>'.$biweekly_no.'</b></h2>';
+            echo '<h3>'.$biweekly.'</h3>';
+            echo '<p>'.$caption.'</p>';
+
+            
+        ?>
     </div>
 </header>
