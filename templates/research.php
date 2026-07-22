@@ -30,7 +30,7 @@ get_header(); ?>
             <?php echo do_shortcode('[facetwp facet="category_research"]'); ?>
             <?php echo do_shortcode('[facetwp facet="research_year"]'); ?>
             <button class="btn justify-center" onclick="FWP.refresh()">ค้นหา</button>
-            <?php echo '<a href="https://demo.nida.ac.th/research-list/" id="reset" class="btn">เริ่มใหม่</a>'; ?>
+            <?php echo '<a href="/research-list/" id="reset" class="btn">เริ่มใหม่</a>'; ?>
         </div>
         <div>
             <h2 class="_title">งานวิจัย/Research/บทความวิชาการ</h2>
