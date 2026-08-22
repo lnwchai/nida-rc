@@ -33,7 +33,7 @@ get_header(); ?>
             <?php echo '<a href="/research-list/" id="reset" class="btn">เริ่มใหม่</a>'; ?>
         </div>
         <div>
-            <h2 class="_title">งานวิจัย/Research/บทความวิชาการ</h2>
+        <h2 class="_title"><?php echo esc_html( pll__('งานวิจัย/Research/บทความวิชาการ') ); ?></h2>
             <?php
             echo do_shortcode('[facetwp template="research_card"]');
             echo do_shortcode('[facetwp facet="pagination"]');
