@@ -402,5 +402,13 @@ add_filter('gform_field_value_page_title', function () {
     return get_the_title();
 });
 
-
+add_action('init', function () {
+    if (function_exists('pll_register_string')) {
+        pll_register_string(
+            'research_title',
+            'งานวิจัย/Research/บทความวิชาการ',
+            'Theme'
+        );
+    }
+});
 
